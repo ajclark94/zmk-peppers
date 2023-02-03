@@ -84,9 +84,9 @@
 
         SYM {
             bindings = <
-           &trans          &kp CARET    &kp ASTRK  &kp AMPS    &trans  &trans  &trans  &trans  &trans  &trans
- &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp PERCENT  &kp DLLR  &kp PLUS  &trans  &trans  &trans  &trans  &trans
-        &kp TILDE           &kp HASH       &kp AT  &kp EXCL  &kp PIPE  &trans  &trans  &trans  &trans  &trans
+           &trans          &kp CARET    &kp ASTRK  &kp AMPS  &kp BSLH  &trans  &kp F7  &kp F8  &kp F9  &kp F10
+ &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp PERCENT  &kp DLLR  &kp PLUS  &trans  &kp F4  &kp F5  &kp F6  &kp F11
+        &kp TILDE           &kp HASH       &kp AT  &kp EXCL  &kp PIPE  &trans  &kp F1  &kp F2  &kp F3  &kp F11
                                                      &trans    &trans   &none  &trans
             >;
 
