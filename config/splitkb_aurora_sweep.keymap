@@ -53,7 +53,7 @@
 
         combo_gaming {
             bindings = <&tog 4>;
-            key-positions = <>;
+            key-positions = <31 32>;
         };
     };
 
