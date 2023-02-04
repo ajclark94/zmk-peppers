@@ -63,13 +63,11 @@
 
         BASE {
             bindings = <
-  &kp Q           &kp W         &kp E               &kp R            &kp T        &kp Y               &kp U         &kp I           &kp O              &kp P
-  &kp A  &hm LEFT_ALT S  &hm LSHIFT D  &hm LEFT_CONTROL F            &kp G        &kp H  &hm LEFT_CONTROL J  &hm LSHIFT K  &hm LEFT_ALT L  &hm LEFT_GUI SEMI
-  &kp Z           &kp X         &kp C               &kp V            &kp B        &kp N               &kp M     &kp COMMA         &kp DOT          &kp SLASH
-                                                &lt 3 TAB  &lt 1 BACKSPACE  &lt 2 SPACE         &lt 5 ENTER
+  &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P
+  &kp A &hm LEFT_ALT S  &hm LSHIFT D &kp F &kp G &kp H &kp J &hm LSHIFT K &hm LEFT_ALT L &hm LEFT_GUI SEMI
+  &hm LCTRL Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT &hm LCTRL SLASH
+  &lt 3 TAB &lt 1 BACKSPACE &lt 2 SPACE &lt 5 ENTER
             >;
-
-            sensor-bindings = <&inc_dec_kp A A &inc_dec_kp A A>;
         };
 
         NAV {
@@ -79,8 +77,6 @@
  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET         &kp LESS_THAN       &kp GREATER_THAN
                          &trans   &none  &trans            &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp A A &inc_dec_kp A A>;
         };
 
         SYM {
@@ -90,8 +86,6 @@
         &kp TILDE           &kp HASH       &kp AT  &kp EXCL  &kp PIPE  &trans  &kp F1  &kp F2  &kp F3  &kp F11
                                                      &trans    &trans   &none  &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp A A &inc_dec_kp A A>;
         };
 
         NUM {
@@ -101,8 +95,6 @@
  &trans  &trans  &trans  &trans  &trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL
                           &none  &trans        &trans        &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp A A &inc_dec_kp A A>;
         };
 
         GAMING {
@@ -112,8 +104,6 @@
   &kp Z   &kp X   &kp C      &kp V      &kp B          &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
                          &lt 3 TAB  &kp SPACE  &kp BACKSPACE  &kp ENTER
             >;
-
-            sensor-bindings = <&inc_dec_kp A A &inc_dec_kp A A>;
         };
 
         BT {
@@ -123,8 +113,6 @@
      &trans      &trans      &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans
                                            &trans        &trans  &trans  &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp A A &inc_dec_kp A A>;
         };
     };
 };
