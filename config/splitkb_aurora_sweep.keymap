@@ -51,11 +51,6 @@
             bindings = <&kp UNDER>;
             key-positions = <13 16>;
         };
-
-        combo_gaming {
-            bindings = <&tog 4>;
-            key-positions = <30 33>;
-        };
     };
 
     keymap {
@@ -94,15 +89,6 @@
  &trans  &trans  &trans  &trans  &trans        &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp PLUS
  &trans  &trans  &trans  &trans  &trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL
                           &none  &trans        &trans        &trans
-            >;
-        };
-
-        GAMING {
-            bindings = <
-  &kp Q   &kp W   &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I    &kp O      &kp P
-  &kp A   &kp S   &kp D      &kp F      &kp G          &kp H      &kp J      &kp K    &kp L   &kp SEMI
-  &kp Z   &kp X   &kp C      &kp V      &kp B          &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
-                         &lt 3 TAB  &kp SPACE  &kp BACKSPACE  &kp ENTER
             >;
         };
 
