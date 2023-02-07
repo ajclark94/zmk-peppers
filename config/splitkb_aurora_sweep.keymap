@@ -94,7 +94,7 @@
 
         BT {
             bindings = <
-&kp LCTRL(LSHIFT(GRAVE)) &trans     &trans     &trans      &trans  &bt BT_CLR  &bt BT_NXT  &bt BT_PRV  &bt BT_SEL 0  &bt BT_SEL 1
+&kp LC(LS(GRAVE)) &kp LCTRL  &kp LCTRL  &kp LCTRL  &kp LCTRL  &bt BT_CLR  &bt BT_NXT  &bt BT_PRV  &bt BT_SEL 0  &bt BT_SEL 1
    &trans     &trans     &trans     &trans     &trans      &trans      &trans      &trans        &trans        &trans
    &trans     &trans     &trans     &trans     &trans      &trans      &trans      &trans        &trans        &trans
                                     &trans     &trans      &trans      &trans
