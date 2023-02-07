@@ -61,7 +61,7 @@
       &kp Q           &kp W  &kp E      &kp R            &kp T        &kp Y        &kp U      &kp I           &kp O            &kp P
 &hm LSHFT A  &hm LEFT_ALT S  &kp D      &kp F            &kp G        &kp H        &kp J      &kp K  &hm LEFT_ALT L   &hm LSHFT SEMI
 &hm LCTRL Z           &kp X  &kp C      &kp V            &kp B        &kp N        &kp M  &kp COMMA         &kp DOT  &hm LCTRL SLASH
-                                    &lt 3 TAB  &lt 1 BACKSPACE  &lt 2 SPACE  &lt 5 ENTER
+                                    &lt 3 TAB  &lt 1 BACKSPACE  &lt 2 SPACE  &lt 4 ENTER
             >;
         };
 
@@ -94,10 +94,10 @@
 
         BT {
             bindings = <
-&bt BT_CLR  &bt BT_NXT  &bt BT_PRV  &bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans  &trans  &trans  &trans
-    &trans      &trans      &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans
-    &trans      &trans      &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans
-                                          &trans        &trans  &trans  &trans
+&kp LCTRL  &kp LCTRL  &kp LCTRL  &kp LCTRL  &kp LCTRL  &bt BT_CLR  &bt BT_NXT  &bt BT_PRV  &bt BT_SEL 0  &bt BT_SEL 1
+   &trans     &trans     &trans     &trans     &trans      &trans      &trans      &trans        &trans        &trans
+   &trans     &trans     &trans     &trans     &trans      &trans      &trans      &trans        &trans        &trans
+                                    &trans     &trans      &trans      &trans
             >;
         };
     };
